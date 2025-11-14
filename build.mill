@@ -1,0 +1,12 @@
+import mill._, scalalib._
+
+object foo extends ScalaModule {
+  def scalaVersion = "3.3.1"
+
+  def mainClass = Some("foo.Foo")
+
+  def ivyDeps = Agg(
+    ivy"com.github.ghostdogpr::caliban:2.11.1"
+  )
+}
+

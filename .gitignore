@@ -1,0 +1,8 @@
+# Mill build tool
+out/
+
+# IDE
+.idea/
+.bsp/
+
+
